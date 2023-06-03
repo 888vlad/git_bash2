@@ -43,10 +43,48 @@
               <p>Some home content</p>
             </section>
 
+            <!-- Site news-->
             <section class="content"id="news">
               <h2>News</h2>
               <p>Some News content</p>
+
+              <form>
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" placeholder="Enter user name">
+
+                <label for="lastname">Lastname</label>
+                <input type="text" name="firstname" placeholder="Enter user lastname">
+
+                <label for="age">Age</label>
+                <input type="number" name="age" placeholder="Enter user age">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Config password">
+
+                <label for="confirm-password">Password</label>
+                <input type="password" name="confirm-password" placeholder="Config user password">
+
+                <label for="role">Select user role</label>
+                <select name="role">
+                    <option>Guest</option>
+                    <option>User</option>
+
+                     <optgroup label="Manager type">
+                        <option>Manager 1</option>
+                        <option>Manager 2</option>
+                        <option>Manager 3</option>
+                     </optgroup>
+
+                    <option>Admin</option>
+                    <label for="rules">Site rules</label>
+                    <input type="checkbox" name="rules" id="role">
+                </select>
+
+                <button type="submit">Singup</button>
+
+              </form>
             </section>
+
 
             <!-- Users catalog table -->
 

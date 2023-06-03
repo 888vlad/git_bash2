@@ -17,11 +17,40 @@ body {
   height: 100%;
 }
 
+
 .wrapper{background-color: aquamarine;
 }
+
+.header {
+    background-color: orange
+  }
+  .footer {
+    background-color: yellow;
+  }
+
 
 .content {
     margin-block: 50px;
     height: 500px;
     background-color: lightcoral;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 50px;
+    height: 500px;
+    background-color: lightcoral;
+  }
+
+  table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+    background-color: lightgray;
   }
